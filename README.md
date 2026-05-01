@@ -1,3 +1,42 @@
+Download linux-trainer.tar.gz to a convenient location on your computer — the trainer doesn't care where it lives. Extract the file to the same folder. A few good options depending on your OS:
+WWindows 
+
+C:\Users\YourName\Documents\linux-trainer\ — easy to find later
+C:\Users\YourName\projects\linux-trainer\ — if you plan to do more dev projects
+
+macOS / Linux
+
+~/Documents/linux-trainer/ — easy to find
+~/projects/linux-trainer/ — common convention for code projects
+
+What to avoid
+
+Inside Program Files (Windows) — Python virtual environments get cranky there because of permission issues
+Inside OneDrive, iCloud Drive, or Dropbox folders — cloud sync can corrupt the .venv folder mid-sync and break things in confusing ways
+Paths with spaces or special characters — usually fine, but occasionally trips up Python tools. My Documents is technically OK, My Project (v2)! less so.
+
+Step-by-step
+
+Pick a folder like C:\Users\YourName\Documents\ (Windows) or ~/Documents/ (Mac/Linux).
+Move linux-trainer.tar.gz into that folder (drag and drop is fine).
+Extract it — this creates a linux-trainer/ subfolder containing everything.
+Open a terminal in that subfolder:
+
+Windows: open the folder in File Explorer → click the address bar → type powershell → Enter
+macOS: right-click the folder in Finder → Services → New Terminal at Folder (you may need to enable this in System Settings → Keyboard → Keyboard Shortcuts → Services)
+Linux: right-click → Open Terminal Here
+
+
+Run the setup commands from the README.
+
+Extracting .tar.gz
+If your OS doesn't open .tar.gz natively:
+
+Windows 10/11 — built-in. Right-click → Extract All. (Older Windows: install 7-Zip, free.)
+macOS — built-in. Double-click the file.
+Linux — tar -xzf linux-trainer.tar.gz from a terminal, or use the file manager's right-click extract.
+
+
 # Linux-Trainer
 A self-paced course covering both Debian/Ubuntu and Fedora/RHEL families. Read a lesson, run the lab in your VM, check your understanding, repeat.
 
