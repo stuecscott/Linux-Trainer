@@ -1,5 +1,5 @@
 Download linux-trainer.tar.gz to a convenient location on your computer — the trainer doesn't care where it lives. Extract the file to the same folder. A few good options depending on your OS:
-WWindows 
+Windows 
 
 C:\Users\YourName\Documents\linux-trainer\ — easy to find later
 C:\Users\YourName\projects\linux-trainer\ — if you plan to do more dev projects
